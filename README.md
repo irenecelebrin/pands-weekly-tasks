@@ -6,6 +6,6 @@ Created by: irene celebrin
 
 ## In this repo: 
 
-Week 01: hellowrold.py
+Week 01: helloworld.py
 
 Week 02: bank.py
