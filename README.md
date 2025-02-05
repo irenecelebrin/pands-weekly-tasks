@@ -1,3 +1,6 @@
 # pands-weekly-tasks
+# weekly tasks for Programming and Scripting 
+# created by: irene celebrin
 
-weekly tasks for Programming and Scripting 
+Week 01: hellowrold.py
+Week 02: bank.py
