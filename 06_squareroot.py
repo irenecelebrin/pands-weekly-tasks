@@ -20,10 +20,9 @@ def sqrt(number, l) :
  
     # Assuming the sqrt of nnmber as number only 
     x = number
- 
+    
     # To count the number of iterations 
-    count = 0
- 
+    count = 0 
     while (1) :
         count += 1
 
