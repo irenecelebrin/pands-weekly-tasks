@@ -24,8 +24,8 @@ histogram_values =  np.random.normal(loc=hist_mean, scale=hist_std, size=hist_va
 # the plot 
 # define parameters 
 plot_min = 1
-plot_max = 10
-# create the array of x values with numpy.arange. Source: https://numpy.org/doc/2.1/reference/generated/numpy.arange.html
+plot_max = 11
+# create the array of x values with numpy.arange. The max value is not included in the array. Source: https://numpy.org/doc/2.1/reference/generated/numpy.arange.html
 x = np.arange(plot_min,plot_max)
 # define h values as h(x) = x**3
 h = x ** 3
@@ -43,3 +43,4 @@ plt.grid(linestyle = 'dashdot', linewidth = '0.3')
 
 plt.show()
 plt.savefig('08_plottaks')
+
