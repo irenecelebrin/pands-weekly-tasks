@@ -32,7 +32,7 @@ h = x ** 3
 
 # plot the data 
 plt.hist(histogram_values, label = 'Normal distribution')
-plt.plot(x,h, label = 'x(h) = x**3')
+plt.plot(x,h, marker='.', label = 'x(h) = x**3')
 
 # set title, legend, ax lables, colours ecc
 plt.title('Week 08: Plottask')
@@ -42,3 +42,4 @@ plt.ylabel('y', color = 'orange', size = 'x-large')
 plt.grid(linestyle = 'dashdot', linewidth = '0.3')
 
 plt.show()
+plt.savefig('08_plottaks')
