@@ -31,3 +31,5 @@ def is_weekday():
 # In this way, if I later import the module in another script, it will not run automatically but only if executed directly.  
 if __name__ == '__main__':
     is_weekday()
+
+    

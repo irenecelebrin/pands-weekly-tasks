@@ -20,7 +20,7 @@ def count_e(input_file):
     if not input_file.endswith(('.txt')):
         print('This is not a text file. Please provide a .txt file.')
     else:
-          print('Counting the e\'s...')  
+        print('Counting the e\'s...')  
          
     # read file, count the Es and print the number      
     with open(input_file, 'rt') as f:       

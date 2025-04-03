@@ -1,6 +1,7 @@
 # week01
-# Print in the terminal 'hello world!'
-# created by: irene celebrin
+# author: irene celebrin
+# task: Print in the terminal 'hello world!'
 
+# print the console the string 'Hello world!'
 print('Hello world!')
 

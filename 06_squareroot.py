@@ -1,7 +1,6 @@
 # week 06
 # author: irene celebrin
-# task: 
-# Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+# task: write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 # You should create a function called <tt>sqrt</tt> that does this.
 
 # Using Newton's method: give a number N, the square root of N can be given by the formula:  
@@ -11,14 +10,14 @@
 # Source: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 # using the function 
-# The function requires two parameters: the number to calculate the root, and a tolerance limit. To be honest I understand it only to some extent. I get the computing part, but can't fully graps the mathematics. 
+# The function requires two parameters: the number to calculate the root, and a tolerance limit. To be honest I understand it only to some extent. I get the computing part, but can't fully grasp the mathematics. 
 
 # tolerance limit
 l = 0.0001
 
 def sqrt(number, l) :
  
-    # Assuming the sqrt of nnmber as number only 
+    # Assuming the sqrt of number as number only 
     x = number
     
     # To count the number of iterations 
@@ -42,7 +41,7 @@ def sqrt(number, l) :
 #ask user for input number 
 number = input('Enter a number (blank to exit): ')
 
-#create loop to prompt for a number and return square root until the anser is blank
+#create loop to prompt for a number and return square root until the answer is blank
 while number != '':
     # turn string into float 
     number = float(number)
