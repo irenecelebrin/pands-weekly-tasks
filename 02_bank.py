@@ -7,7 +7,7 @@
 amount1 = int(input('Please enter money amount (in cents): '))
 amount2 = int(input('Please enter a second money amount (in cents): '))
 
-# Add the two amounts and turn the from cents to euros
+# Add the two amounts and turn the number from cents to euros
 total = (amount1 + amount2)/100
 
 # Print out the answer in a human readable format with a euro sign.  

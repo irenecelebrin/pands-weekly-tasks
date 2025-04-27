@@ -36,3 +36,6 @@ if len(sys.argv) < 2:
 else: 
     count_e(sys.argv[1])
 
+# Testing the code: 
+# run the code in the terminal with the followig command: python 07_es.py <input_file>.txt
+# e.g. python 07_es.py 07_little_women.txt
